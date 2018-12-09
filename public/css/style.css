@@ -1,0 +1,522 @@
+/* Start generic-styling */
+/* Start generic-styling */
+/* Start generic-styling */
+:root {
+	--primary-color: #f4f4f4;
+	--text-primary-color: #333;
+	--speacial-bg: linear-gradient(to bottom, #f5f5f5 0%,#e5e5e5 100%);
+}
+
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12 {
+	float: right !important;
+}
+
+
+body {
+	font-family: 'Cairo', sans-serif;
+}
+
+ul {padding: 0;}
+
+img {width: 100%;}
+
+.img-container {
+	margin: 10px; padding: 10px;
+}
+
+.img-full-width {width: 100%;}
+
+.main-bg {
+	background-color: var(--primary-color);
+	color: var(--text-primary-color);
+}
+
+.datepicker,
+.datepicker-switch {direction:ltr; text-align:center;}
+
+/* not confirm*/
+.table-container-border {
+	border: 1px solid #aaa;
+	padding: 0 !important;
+	margin: 0 2px;
+}
+
+.special-btns > * {margin: 10px 0;}
+
+
+.speacial-bg {
+	 background: var(--speacial-bg);
+ }
+
+
+	/*Customized Forms Container*/
+.form-container {
+	min-height: 100px;
+	margin-bottom: 50px;
+	padding: 20px;
+	background-color: #f4f4f4;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.form-container-small {
+	/* Used in the popup form in the school profile*/
+	margin: 20px;
+}
+
+.form-container-small legend,
+.form-container legend {
+	padding: 5px 0;
+}
+
+.form-container-small .form-group,
+.form-container .form-group {
+	margin-bottom: 20px;
+}
+
+.form-container-small label,
+.form-container label {padding: 3px;}
+
+.form-container-small input,
+.form-container-small select,
+.form-container input,
+.form-container select {
+	font-size: 0.8em;
+}
+
+
+	/*Customized Tables*/
+.customized-table-container {
+	background: var(--speacial-bg);
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin: 20px 0;
+}
+
+.custome-mine-table {
+ 	height: 200px;
+	overflow-y: scroll;
+}
+
+.table-container {
+	height: 300px;
+	overflow-y: scroll;
+}
+/* End generic-styling */
+/* End generic-styling */
+/* End generic-styling */
+
+
+
+
+/* Start main-navbar */
+/* Start main-navbar */
+/* Start main-navbar */
+ .navbar-heading {
+	 /* mine customized navbar*/
+	 min-height: 25px;
+	 padding: 3px;
+	 background:  linear-gradient(to bottom, #f5f5f5 0%,#e5e5e5 100%);
+	 margin-bottom: 0;
+	 font-size: 0.8em;
+ }
+ .navbar-brand {
+	 padding-top: 7px;
+	 padding-bottom: 7px;
+	 padding-right: 0;
+ }
+ .navbar-brand .brand-ar {
+	 display: inline-block;
+	 border-left: 1px solid #bbb;
+	 border-right: 1px solid #bbb;
+	 text-align: center;
+ }
+ .navbar-brand .brand-ar img {
+	 width: 130px;
+	 padding: 0 10px;
+ }
+/* End main-navbar */
+/* End main-navbar */
+/* End main-navbar */
+
+
+
+
+/* Strat Main Adnim Page */
+/* Strat Main Adnim Page */
+/* Strat Main Adnim Page */
+.main-page-box {
+	background: var(--primary-color);
+	width: 100%;
+	margin: 15px auto;
+	padding: 10px 10px 0 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 2em;
+}
+
+
+
+
+/* Start users-cpanel page */
+/* Start users-cpanel page */
+/* Start users-cpanel page */
+.users-table  {
+	margin-bottom: 1em;
+}
+
+ .users-search {
+  margin-top: 24px;
+}
+
+.users-table input.form-control,
+.users-table select.form-control{
+	height: 25px;
+	padding: 0 10px;
+	font-size: 0.9em;
+}
+/* End users-cpanel page */
+/* End users-cpanel page */
+/* End users-cpanel page */
+
+
+
+
+/* Start manage-customized-admin page */
+/* Start manage-customized-admin page */
+/* Start manage-customized-admin page */
+.add-account-btn {
+	margin-bottom: 20px;
+}
+
+.users-control-table {
+	height: 400px;
+	overflow-y: scroll;
+}
+
+@media (max-width: 990px) {
+	.users-control-table {
+	 	height: 300px;
+		overflow: scroll;
+	}
+}
+
+.manage-users-search {
+	margin-bottom: 20px;
+	font-size: 0.8em;
+}
+
+.manage-users-search input,
+.manage-users-search select {
+	font-size: 0.95em;
+}
+.manage-users-search input[type=submit] {margin-top: 23px;}
+/* End manage-customized-admin page */
+/* End manage-customized-admin page */
+/* End manage-customized-admin page */
+
+
+
+
+/* Start add-new-user page */
+/* Start add-new-user page */
+/* Start add-new-user page */
+.investors-optional,
+.select-schools-option,
+.technichal-support-options {
+	display: none;
+}
+
+.privliges-table {
+	height: 200px;
+	overflow-y: scroll;
+}
+
+.chosse-school-table {
+	/*chosse school modle table*/
+	height: 200px;
+	overflow-y: scroll;
+}
+/* End add-new-user page */
+/* End add-new-user page */
+/* End add-new-user page */
+
+
+
+
+/* Start create-new-school page */
+/* Start create-new-school page */
+/* Start create-new-school page */
+.created_way_select_options {display: none;}
+/* End create-new-school page */
+/* End create-new-school page */
+/* End create-new-school page */
+
+
+
+
+/* Start create-new-teacher page */
+/* Start create-new-teacher page */
+/* Start create-new-teacher page */
+.teacher_payrole_investor {display: none;}
+/* Start create-new-teacher page */
+/* Start create-new-teacher page */
+/* Start create-new-teacher page */
+
+
+
+
+/* Start create-new-student page */
+/* Start create-new-student page */
+/* Start create-new-student page */
+.child-family-state {
+	border:1px solid #ddd;
+	padding: 10px;
+	background-color:#eee;
+	margin-bottom: 10px;
+}
+
+.wickedpicker,
+.timepicker {direction: ltr !important;}
+
+.child-family-state {display: none;}
+/* End create-new-student page */
+/* End create-new-student page */
+/* End create-new-student page */
+
+
+
+
+/* Start profiles */
+/* Start profiles */
+/* Start profiles */
+ .button-click-slide-target,
+ .list-group-slide-target {
+	display: none;
+}
+
+.profile-info .panel-body {padding-bottom: 0 !important;}
+
+.profile-info button {
+	margin: 10px 0 !important;
+}
+
+ .fast-search-container {
+	overflow: hidden;
+ }
+
+ .fast-search-container select {font-size: 0.9em;}
+
+ .fast-search-container input[type=submit] {
+	 margin-top: 26px;
+ }
+
+.profile-info-table-container td {width: 50%;}
+/* End profiles */
+/* End profiles */
+/* End profiles */
+
+
+
+
+/* Start school-profile */
+/* Start school-profile */
+/* Start school-profile */
+.field-container {
+	min-height: 100px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.special-btns > * {margin: 10px 0;}
+
+.genaric-toggle-table {display:none ;}
+/* End school-profile */
+/* End school-profile */
+/* End school-profile */
+
+
+
+
+/* Start technichal-user-profiel */
+/* Start technichal-user-profiel */
+/* Start technichal-user-profiel */
+.user-profile-search-box,
+.user-profile-search .submit-btn {
+	display: none;
+}
+
+@media (max-width: 990px) {
+	.technichal-info-table {
+		font-size: 14px;
+	}
+
+	.fast-search-container input[type=submit]  {
+		margin: 0 !important;
+		display: block !important;
+		width: 100%;
+		padding: 5px;
+		font-size: 16px;
+	}
+}
+/* End technichal-user-profiel */
+/* End technichal-user-profiel */
+/* End technichal-user-profiel */
+
+
+
+
+/* Start sudent-profile */
+/* Start sudent-profile */
+/* Start sudent-profile */
+.student-profile-controler {margin-top: 10px;}
+
+@media (max-width: 990px) {
+	.student-profile-card table{
+		margin-top: 10px;
+	}
+}
+/* End sudent-profile */
+/* End sudent-profile */
+/* End sudent-profile */
+
+
+
+
+/* Start teacher-profiel */
+/* Start teacher-profiel */
+/* Start teacher-profiel */
+.teacher-profile-controler {margin-top: 10px;}
+.teacher-profile-controler > * {margin: 8px 0;}
+/* End teacher-profiel */
+/* End teacher-profiel */
+/* End teacher-profiel */
+
+
+
+
+ /* Start attendance-management-system */
+ /* Start attendance-management-system */
+ /* Start attendance-management-system */
+.attendance-navbar {
+  height: 35px;
+  padding: 0 10px;
+  margin-bottom: 15px;
+  background: linear-gradient(to bottom, #f5f5f5 0%,#bcbcbc 100%);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.attendance-navbar li {
+	/* border: 1px solid #000; */
+	display: inline-block;
+	padding: 7px 5px;
+	cursor: pointer;
+}
+
+.attendance-nav-active {background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);}
+
+.attendance-toggle {display: none;}
+
+.date-message-error {display: none;}
+ /* End attendance-management-system */
+ /* End attendance-management-system */
+ /* End attendance-management-system */
+
+
+
+
+/* Start teachers-attendance */
+/* Start teachers-attendance */
+/* Start teachers-attendance */
+ .special-form {
+	 padding: 10px 15px;
+	 background-color: #ececec;
+	 margin-bottom: 10px;
+	 border: 1px solid #ddd;
+ }
+ .special-form > form-group {
+	margin-bottom: 8px;
+ }
+/* End teachers-attendance */
+/* End teachers-attendance */
+/* End teachers-attendance */
+
+
+
+
+/* Start teacher-matrials */
+/* Start teacher-matrials */
+/* Start teacher-matrials */
+.teacher-matrials-navbar {
+  height: 35px;
+  padding: 0 10px;
+  margin-bottom: 15px;
+  background: linear-gradient(to bottom, #f5f5f5 0%,#bcbcbc 100%);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.teacher-matrials-navbar li {
+	/* border: 1px solid #000; */
+	display: inline-block;
+	padding: 7px 7px;
+	cursor: pointer;
+}
+
+.matrials-nav-active {background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);}
+
+.matrials-toggle {display: none;}
+.file-source {display: none ;}
+/* End teacher-matrials */
+/* End teacher-matrials */
+/* End teacher-matrials */
+
+
+
+/* Start Reports Page */
+/* Start Reports Page */
+/* Start Reports Page */
+
+
+/* End Reports Page */
+/* End Reports Page */
+/* End Reports Page */
+
+	/* New Lines */
+.heading_field {display: none;}
+.hidden-element {display: none;}
+
+.btn-margin {margin: 5px 10px 5px 0px;}
+
+
+.mine-toggle-navbar {
+  height: 35px;
+  padding: 0 10px;
+  margin-bottom: 15px;
+  background: linear-gradient(to bottom, #f5f5f5 0%,#bcbcbc 100%);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.mine-toggle-navbar li {
+	/* border: 1px solid #000; */
+	display: inline-block;
+	padding: 7px 7px;
+	cursor: pointer;
+}
+
+.mine-nav-active {background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);}
